@@ -71,6 +71,7 @@ class ItemController extends Controller
         ]);
         
         $item->update($request->all());
+        return redirect("/items");
     }
 
     /**
